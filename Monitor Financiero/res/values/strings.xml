@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Banregio</string>
+    <string name="seccion">Monitor Financiero</string>
+    <string name="atras">Atras</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="alerta">Atención</string>
+    
+    <string name="divisas">Divisas</string>
+    <string name="c">Compra</string>
+    <string name="v">Venta</string>
+    <string name="valor">Valor</string>
+    
+    
+    <string name="dolar">Dólar </string>
+    <string name="usd"> (USD)</string>
+    
+    <string name="euro">Euro </string>
+    <string name="eur"> (EUR)</string>
+    
+    <string name="tasas">Tasas y UDI</string>
+    <string name="udis">UDIS</string>
+    <string name="cetes">CETES 28</string>
+    <string name="tiie">TIIE</string>
+    
+    <string name="metales">Metales</string>
+    <string name="oro">Oro</string>
+    <string name="plata">Plata</string>
+    <string name="centenario">Centenario</string>
+    
+    <string name="aviso">Los precios son informativos y sujetos a cambio</string>
+    <string name="fecha">Última Actualización: </string>
+
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="datos">
+         <item name="android:textColor">#8A0829</item>
+         <item name="android:textSize">18dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+    
+     <style name="datos2">
+         <item name="android:textColor">#585858</item>
+         <item name="android:textSize">18dp</item>
+         <item name="android:textStyle">bold|italic</item>
+
+    </style>
+    
+    <style name="subti">
+         <item name="android:textColor">#606060</item>
+         <item name="android:textSize">12dp</item>
+         <item name="android:textStyle">bold|italic</item>
+
+    </style>
+    
+    <style name="valores">
+         <item name="android:textColor">#282828</item>
+         <item name="android:textSize">18dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+    
+    <style name="mensaje">
+         <item name="android:textColor">#F2F2F2</item>
+         <item name="android:textSize">15dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+   
+    <style name="titulos">
+         <item name="android:textColor">#F2F2F2</item>
+         <item name="android:textSize">18dp</item>
+         <item name="android:textStyle">bold|italic</item>
+
+    </style>
+    
+    <style name="seccion">
+         <item name="android:textColor">#F2F2F2</item>
+         <item name="android:textSize">18dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>
