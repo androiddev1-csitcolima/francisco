@@ -1,0 +1,46 @@
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_milenio_main">Milenio</string>
+
+        
+    <string name="app_name">Milenio</string>
+    
+    <string name="atras">Atras</string>
+    <string name="home">Home</string>
+    <string name="clima">°</string>
+    <string name="impreso">Impreso</string>
+    <string name="tv">Television</string>
+    <string name="radio">Radio</string>
+    <string name="buscar">Buscar</string>
+    
+    <string name="secciones">Secciones</string>
+    <string name="firmas">Firmas</string>
+    <string name="ediciones">Ediciones</string>
+    <string name="otros">Otros</string>
+    <string name="topicos">Tóopicos</string>
+    <string name="favoritos">Favoritos</string>
+    
+    <string name="registro">Registrarse</string>
+    <string name="cfb">Conectarse con Facebook</string>
+    <string name="ctw">Conectarse con Twitter</string>
+    <string name="cg">Conectarse con Google+</string>
+    <string name="cl">Conectarse con Linkedin</string>
+    <string name="alrertas">Alertas</string>
+    <string name="pp">Políticas de privacidad</string>
+    
+    <string name="usuario">NOMBRE DE USUARIO</string>
+    <string name="pass">PASSWORD</string>
+    <string name="login">Login</string>
+    <string name="msjlogin">Para abrir una cuenta, debe conectarse a la web de Milenio.com desde un computador</string>
+    
+    <string name="eligepalabra">Elige una palabra o tema</string>
+    <string name="preguntaalerta">¿Filtrar esta palabra por sección?</string>
+    <string name="lunesviernes">Lunes a Viernes</string>
+    <string name="sabadodomingo">Sábado y Domingo</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    
+    <string name="blank"></string>
+</resources>

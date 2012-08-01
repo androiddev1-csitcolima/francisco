@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+     
+     <style name="grados">
+         <item name="android:textColor">#FFFFFF</item>
+         <item name="android:textSize">25dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+
+   <style name="gradosr">
+         <item name="android:textColor">#FFFFFF</item>
+         <item name="android:textSize">12dp</item>
+         <item name="android:textStyle">bold</item>
+
+    </style>
+</resources>

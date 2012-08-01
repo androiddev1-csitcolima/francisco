@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="otros">
+        <item name="moneros">Monero</item>
+        <item name="fotogaleria">Fotogalería</item>
+        <item name="encuestas">Encuestas</item>
+    </string-array>
+</resources>
