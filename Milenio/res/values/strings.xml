@@ -19,7 +19,7 @@
     <string name="firmas">Firmas</string>
     <string name="ediciones">Ediciones</string>
     <string name="otros">Otros</string>
-    <string name="topicos">Tóopicos</string>
+    <string name="topicos">Tópicos</string>
     <string name="favoritos">Favoritos</string>
     
     <string name="registro">Registrarse</string>
@@ -42,5 +42,12 @@
     <string name="on">ON</string>
     <string name="off">OFF</string>
     
+    <string name="fotos">Fotos</string>
+    <string name="videos">Videos</string>
+    <string name="tvvivo">TV En Vivo</string>
+    
+    <string name="laaficion">La Afición</string>
+    <string name="atiempo">A Tiempo</string>
+    <string name="topnew">Top New</string>
     <string name="blank"></string>
 </resources>

@@ -20,50 +20,76 @@ public final class R {
     }
     public static final class drawable {
         public static final int atras=0x7f020000;
-        public static final int ediciones=0x7f020001;
-        public static final int favoritos=0x7f020002;
-        public static final int firmas=0x7f020003;
-        public static final int home=0x7f020004;
-        public static final int homeon=0x7f020005;
-        public static final int ic_action_search=0x7f020006;
-        public static final int ic_launcher=0x7f020007;
-        public static final int impreso=0x7f020008;
-        public static final int impresoon=0x7f020009;
-        public static final int milenio=0x7f02000a;
-        public static final int mimilenio=0x7f02000b;
-        public static final int otros=0x7f02000c;
-        public static final int radio=0x7f02000d;
-        public static final int radioon=0x7f02000e;
-        public static final int search=0x7f02000f;
-        public static final int searchon=0x7f020010;
-        public static final int secciones=0x7f020011;
-        public static final int television=0x7f020012;
-        public static final int televisionon=0x7f020013;
-        public static final int topicos=0x7f020014;
+        public static final int cuadrofirmafoto=0x7f020001;
+        public static final int cuadromultimedia=0x7f020002;
+        public static final int ediciones=0x7f020003;
+        public static final int encabezadogris=0x7f020004;
+        public static final int engrane=0x7f020005;
+        public static final int favoritos=0x7f020006;
+        public static final int firmas=0x7f020007;
+        public static final int firmastopicos=0x7f020008;
+        public static final int fondoaficion=0x7f020009;
+        public static final int fondoatiempo=0x7f02000a;
+        public static final int fondonoticiaportada=0x7f02000b;
+        public static final int fotosoffl=0x7f02000c;
+        public static final int fotosonl=0x7f02000d;
+        public static final int home=0x7f02000e;
+        public static final int homeon=0x7f02000f;
+        public static final int ic_action_search=0x7f020010;
+        public static final int ic_launcher=0x7f020011;
+        public static final int impreso=0x7f020012;
+        public static final int impresoon=0x7f020013;
+        public static final int laaficion=0x7f020014;
+        public static final int milenio=0x7f020015;
+        public static final int mimilenio=0x7f020016;
+        public static final int noticiarojo=0x7f020017;
+        public static final int otros=0x7f020018;
+        public static final int publicidad411=0x7f020019;
+        public static final int radio=0x7f02001a;
+        public static final int radiooffl=0x7f02001b;
+        public static final int radioon=0x7f02001c;
+        public static final int radioonl=0x7f02001d;
+        public static final int search=0x7f02001e;
+        public static final int searchon=0x7f02001f;
+        public static final int secciones=0x7f020020;
+        public static final int television=0x7f020021;
+        public static final int televisionon=0x7f020022;
+        public static final int topicos=0x7f020023;
+        public static final int topnewstiempo=0x7f020024;
+        public static final int tvenvivooffl=0x7f020025;
+        public static final int tvenvivoon=0x7f020026;
+        public static final int videosoff=0x7f020027;
+        public static final int videosoffl=0x7f020028;
+        public static final int videosonl=0x7f020029;
     }
     public static final class id {
         public static final int atras=0x7f090000;
         public static final int buscar=0x7f090008;
         public static final int clima=0x7f090002;
         public static final int ediciones=0x7f09000b;
+        public static final int esecciones=0x7f090011;
         public static final int favo=0x7f09000e;
         public static final int firmas=0x7f09000a;
-        public static final int grp_child=0x7f090013;
+        public static final int gallery1=0x7f090016;
+        public static final int grp_child=0x7f090018;
         public static final int home=0x7f090001;
+        public static final int imageButton1=0x7f090015;
+        public static final int imageView1=0x7f090012;
+        public static final int imageView2=0x7f090017;
         public static final int imgclima=0x7f090003;
         public static final int impreso=0x7f090005;
-        public static final int menu_settings=0x7f090015;
+        public static final int mediaController1=0x7f090013;
+        public static final int menu_settings=0x7f09001a;
         public static final int minmax=0x7f090004;
         public static final int opciones=0x7f09000f;
         public static final int otros=0x7f09000c;
         public static final int p1=0x7f090010;
-        public static final int p2=0x7f090011;
         public static final int radio=0x7f090007;
-        public static final int row_name=0x7f090014;
+        public static final int row_name=0x7f090019;
         public static final int secciones=0x7f090009;
-        public static final int textView3=0x7f090012;
         public static final int topicos=0x7f09000d;
         public static final int tv=0x7f090006;
+        public static final int videoView1=0x7f090014;
     }
     public static final class layout {
         public static final int activity_milenio_main=0x7f030000;
@@ -76,8 +102,9 @@ public final class R {
     public static final class string {
         public static final int alrertas=0x7f060016;
         public static final int app_name=0x7f060003;
+        public static final int atiempo=0x7f060026;
         public static final int atras=0x7f060004;
-        public static final int blank=0x7f060022;
+        public static final int blank=0x7f060028;
         public static final int buscar=0x7f06000a;
         public static final int cfb=0x7f060012;
         public static final int cg=0x7f060014;
@@ -88,9 +115,11 @@ public final class R {
         public static final int eligepalabra=0x7f06001c;
         public static final int favoritos=0x7f060010;
         public static final int firmas=0x7f06000c;
+        public static final int fotos=0x7f060022;
         public static final int hello_world=0x7f060000;
         public static final int home=0x7f060005;
         public static final int impreso=0x7f060007;
+        public static final int laaficion=0x7f060025;
         public static final int login=0x7f06001a;
         public static final int lunesviernes=0x7f06001e;
         public static final int menu_settings=0x7f060001;
@@ -107,8 +136,11 @@ public final class R {
         public static final int secciones=0x7f06000b;
         public static final int title_activity_milenio_main=0x7f060002;
         public static final int topicos=0x7f06000f;
+        public static final int topnew=0x7f060027;
         public static final int tv=0x7f060008;
+        public static final int tvvivo=0x7f060024;
         public static final int usuario=0x7f060018;
+        public static final int videos=0x7f060023;
     }
     public static final class style {
         public static final int AppTheme=0x7f070000;

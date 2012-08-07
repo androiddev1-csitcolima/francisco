@@ -93,6 +93,7 @@
             android:id="@+id/secciones"
             android:layout_width="179dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/secciones"
             android:prompt="@string/blank" />
 
@@ -100,6 +101,7 @@
             android:id="@+id/firmas"
             android:layout_width="179dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/firmas"
             android:prompt="@string/firmas" />
 
@@ -107,6 +109,7 @@
             android:id="@+id/ediciones"
             android:layout_width="190dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/ediciones"
             android:prompt="@string/ediciones" />
 
@@ -114,6 +117,7 @@
             android:id="@+id/otros"
             android:layout_width="184dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/otros"
             android:prompt="@string/otros" />
 
@@ -121,75 +125,135 @@
             android:id="@+id/topicos"
             android:layout_width="159dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/topicos"
             android:prompt="@string/radio" />
 
         <ImageView
             android:id="@+id/favo"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/favoritos"
             android:contentDescription="@string/favoritos"
             android:src="@drawable/favoritos" />
 
         <Spinner
             android:id="@+id/opciones"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:background="@drawable/mimilenio" />
-
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:baselineAligned="false">
-
-    
+        android:background="#FFFFFF"
+        android:baselineAligned="false" >
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="0.25"
+            android:layout_weight="0.20"
             android:orientation="vertical" >
 
             <TextView
                 android:id="@+id/p1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/hello_world" />
+                android:text="@string/blank" />
+
+            <ExpandableListView
+                android:id="@+id/esecciones"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </ExpandableListView>
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="0.25"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/p2"
-                android:layout_width="wrap_content"
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hello_world" />
+                android:src="@drawable/encabezadogris" />
 
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:layout_weight="0.25"
+            android:layout_weight="0.20"
             android:orientation="vertical" >
 
-            <TextView
-                android:id="@+id/textView3"
-                android:layout_width="wrap_content"
+            <MediaController
+                android:id="@+id/mediaController1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/hello_world" />
+                android:background="@drawable/cuadromultimedia" >
+
+                <LinearLayout
+                    android:layout_width="344dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical" >
+
+                    <VideoView
+                        android:id="@+id/videoView1"
+                        android:layout_width="273dp"
+                        android:layout_height="194dp"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp" >
+
+                        <ImageButton
+                            android:id="@+id/imageButton1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="#FFFFFF"
+                            android:contentDescription="@string/fotos"
+                            android:src="@drawable/fotosonl" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </MediaController>
+
+            <Gallery
+                android:id="@+id/gallery1"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/fondoaficion" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/publicidad411" />
 
         </LinearLayout>
 
-
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.25"
+            android:orientation="vertical" >
+        </LinearLayout>
 
     </LinearLayout>
 
