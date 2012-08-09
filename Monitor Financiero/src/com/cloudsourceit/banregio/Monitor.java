@@ -34,6 +34,7 @@ public class Monitor extends Activity {
     	TextView fecha = (TextView)findViewById(R.id.actualizacion);
     	
     	ImageView actualizar = (ImageView)findViewById(R.id.actualizar);
+    	ImageView atras = (ImageView)findViewById(R.id.atras);
     	
     	Function fun = new Function();
     	String link = "http://app.banregio.com/MonitorFinanciero.plist";
@@ -55,7 +56,7 @@ public class Monitor extends Activity {
 		
 			 fecha.setText(fecha.getText()+" "+st.nextToken()+" "+st.nextToken()+" hrs");
 			
-			 /*NOTA: en el ws faltan los valores de los metales 
+			 /*NOTA: en el ws faltan los valores de los metales en el ws
 			 oro.setText("$"+st.nextToken()+"MXN ");
 			 plata.setText("$"+st.nextToken()+"MXN ");
 			 centenario.setText("$"+st.nextToken()+"MXN ");
@@ -65,6 +66,11 @@ public class Monitor extends Activity {
 		          	public void onClick(View v) {
 		          		final Intent i = new Intent(Monitor.this, Monitor.class);
 		          		startActivity(i);
+		          	}});
+			 
+			 atras.setOnClickListener(new View.OnClickListener() {
+		          	public void onClick(View v) {
+		          		finish();
 		          	}});
 			 
 			 
